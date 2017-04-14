@@ -1,0 +1,221 @@
+input[type="text"]:focus, input[type="password"]:focus {
+	outline:none;
+}
+input::-ms-clear {
+	display:none;
+}
+.logins {
+	width:310px;
+	position:relative;
+	padding:5px 0 5px;
+	margin:0 auto;
+}
+.loginheader {
+	height:50px;
+	border-bottom:1px solid #d3d3d3;
+	position:relative;
+}
+.loginheader .switch {
+	height:45px;
+	font-size:16px;
+}
+.loginheader .switch .switch_btn {
+	color:#999;
+	display:inline-block;
+	height:45px;
+	line-height:45px;
+	outline:none;
+	text-align: center;
+    width: 50%;
+	float:left;
+}
+.loginheader .switch .switch_btn_focus {
+	color:#333;
+	display:inline-block;
+	height:45px;
+	line-height:45px;
+	outline:none;
+	text-align: center;
+    width: 50%;
+	float:left;
+}
+.loginheader .switch .switch_btn:hover {
+	color:#333;
+	text-decoration:none;
+}
+.loginheader .switch .switch_btn_focus:hover {
+	text-decoration:none;
+}
+#switch_bottom {
+	position:absolute;
+	bottom:-1px;
+	border-bottom:1px solid #ae1232;
+}
+.web_login {
+	width:100%;
+	position:relative;
+}
+.web_login .login_form {
+	width:100%;
+	margin-top:20px;
+}
+.web_login .inputOuter {
+	width:100%;
+	height:42px;
+	margin-top:10px;
+	float:left;
+	position:relative;
+}
+.web_login .inputstyle {
+	width:293px;
+	height:38px;
+	padding-left:15px;
+	background:#f6f4f4;
+	line-height:30px;line-height:38px;
+	border:1px solid #d3d3d3;
+	color:#333;
+	font-size:14px;
+	ime-mode:disabled;
+}
+.web_login input.inputstyle:focus{
+	border:1px solid #198BD4;
+	box-shadow:0 0 2px #198BD4;
+}
+.web_login .uinArea {
+	height:55px;
+	position:relative;
+	z-index:10;
+}
+.web_login .pwdArea {
+	height:55px;
+	margin-bottom:10px;
+	position:relative;
+	z-index:3;
+}
+.web_qr_login {
+	position:relative;
+	overflow:hidden;
+}
+.web_login input.inputstyle:focus {
+	border: 1px solid #5796f;
+	box-shadow: 0 0 0;
+}
+.button_blue{
+	display:inline-block;
+	padding:7px 0;
+	background:#313131;border:none;cursor:pointer;
+	color:#fff;
+	font-size:14px;
+	width:100%;
+	text-align:center;outline:none;
+}
+.button_blue:hover{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+}
+.web_login .uinArea {
+	height: 60px;
+}
+.loginheader .switch{
+	left:70px;
+}
+.loginOutDiv{
+	margin:55px auto 0;
+	width:1200px;
+}
+.loginLeftPic{
+	width:750px;
+	float:left;
+	text-align:center;
+	padding:40px 0
+}
+.loginRightForm{
+	width:448px;
+	float:left;
+	border-left:1px solid #d3d3d3;
+}
+a.forgetPsw{
+	display:inline-block;
+	width:50%;
+	float:left;
+	color:#4c4c4c;
+	font-size:14px;
+}
+a.freeQlogin{
+	text-align:right;
+	display:inline-block;
+	width:50%;
+	float:right;
+	color:#ae1232;
+	font-size:14px;
+}
+.loginBtnDiv{
+	margin-top:20px;
+}
+.hzwzdlDiv{
+	padding:15px 0 8px;
+	font-size:14px;
+}
+.newDivHt{
+	margin:0!important;
+	height:50px!important;
+}
+.loginLeftPic img{
+	width:550px;
+	height:300px;
+}
+.hqYzmSpan{
+	padding:5px 12px;
+	color:#fff;
+	background:#313131;
+	cursor:pointer;
+	font-size:13px;
+	position:absolute;
+	right:10px;top:7px;
+}
+.hqYzmSpan:hover{
+	background:#000;
+}
+.msgs1{
+	background:#e6e6e6;
+	color:#818080;
+	border:1px solid #ccc;
+}
+.msgs1:hover{
+}
+.msgs2{
+	background:#e6e6e6;
+	color:#818080;
+	border:1px solid #ccc;
+}
+.msgs2:hover{
+}
+.msgs3{
+	background:#e6e6e6;
+	color:#818080;
+	border:1px solid #ccc;
+}
+.msgs3:hover{
+}
+.forgetPassword{
+	width: 448px;
+	margin:100px auto 0;
+}
+.successLogin{
+	display:none;
+	margin-top:20px;
+	text-align:center;
+}
+
+.yhNameTp{
+	font-size:12px;
+	color:#999;
+	text-indent:0;
+}
+.loginSpanTips{
+	position:absolute;
+	right:-110px;
+	top:13px;
+	font-size:12px;
+}
